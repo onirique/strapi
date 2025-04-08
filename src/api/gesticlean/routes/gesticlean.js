@@ -1,13 +1,9 @@
-module.exports = {
-    routes: [
-      {
-        method: 'GET',
-        path: '/gesticlean/zipcodes',
-        handler: 'gesticlean.zipCode',
-        config: {
-          auth: false,
-        },
-      },
-    ],
-  };
+{
+    method: 'GET',
+    path: '/gesticlean/test',
+    handler: 'gesticlean.checkConnection',
+    config: {
+      auth: false,
+    },
+  }
   
