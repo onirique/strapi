@@ -1,10 +1,9 @@
-// src/api/gesticlean/routes/gesticlean.js
 module.exports = {
     routes: [
       {
         method: 'GET',
-        path: '/gesticlean/ping',
-        handler: 'gesticlean.ping',
+        path: '/gesticlean/zipcodes',
+        handler: 'gesticlean.zipCode',
         config: {
           auth: false,
         },
